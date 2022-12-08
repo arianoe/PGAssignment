@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claude Monet</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel = "stylesheet" href = "./main.css"/>
+    <script type  = "text/javascript" src="test.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://kit.fontawesome.com/82f797382f.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+</head>
+<body>
+  <hr>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <h1 class="navbar-brand mb-0" id = "heading">Claude Monet</h1>
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#famouspt">Famous Paintings</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#ptseries">Painting Series</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#locations">Locations</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <hr>
+    <br>
+
+    <div class = "homepage" id = "home">
+      <div class = "row">
+        <div class = "column-sm-8 portrait">
+          <img src  = "Images/Claude_Monet.png" alt = "Self-Portrait of Claude Monet" width = "350px">
+        </div>
+        <hr>
+        <div class="col-sm intro">
+          <p>Claude Monet was a French impressionist painter known for his colorful and atmospheric landscapes. Born in 1840, Monet grew up in Normandy and later moved to Paris where he studied art and became friends with other impressionist painters like Pierre-Auguste Renoir and Edgar Degas.</p>
+          <p>Monet's work is characterized by his use of light and color to capture the fleeting effects of the natural world. He is known for his series of paintings depicting the same scene at different times of day, such as his famous "Haystacks" and "Water Lilies" series.</p>
+          <p>Monet's paintings often featured scenes of the French countryside, including the gardens at his home in Giverny. He continued to paint and experiment with new techniques until his death in 1926. His work remains highly influential and widely admired.</p>
+        </div> 
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class = "famouspt" id = "famouspt">
+        <h2 class = "famousptTitle">Some Famous Paintings by Monet</h2>
+        <hr>
+        <br>
+        <div class = "paintings" id = "1">
+            <div class="row">
+                <div class="column-sm-8 image">
+                    <img src = "Images/Camille.png" alt = "Camille" width = " 400px"/>
+                </div>
+                <div class="col-sm content">
+                    <p class ="year">1866 | Kunsthalle, Bremen</p>
+                    <h4 class = "ptname">CAMILLE</h4>                   
+                    <p class = "about">"The woman in the Green Dress (Camille)" was the painting of the first wife of Monet, Camille Doncieux. She modeled not only for her husband, but also for Pierre-Auguste Renoir and Édouard Manet. </p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+
+        <div class = "paintings" id = "2">
+          <div class="row">
+              <div class="column-sm-8 image">
+                  <img src = "Images/LaGrenouillere.png" alt = "La Grenouillere" width = " 400px"/>
+              </div>
+              <div class="col-sm content">
+                  <p class ="year">1869 | National museum, Stockholm</p>
+                  <h4 class = "ptname">LA GRENOUILLERE</h4>                   
+                  <p class = "about">La Grenouillere shows a popular resort with a spa, boating facilities and a floating cafe. This was painted when Monet went on a painting trip with his friend, Renoir. This painting was very similar to the one drawn by Renoir on the same trip.</p>
+              </div>
+          </div>
+      </div>
+      <br>
+      <br>
+      <div class = "paintings" id = "3">
+        <div class="row">
+            <div class="column-sm-8 image">
+                <img src = "Images/WomanParasol.png" alt = "Woman with a Parasol" width = " 400px"/>
+            </div>
+            <div class="col-sm content">
+                <p class ="year">1875 | National Gallery of Art, Washington D.C.</p>
+                <h4 class = "ptname">WOMAN WITH A PARASOL | THE STROLL</h4>                   
+                <p class = "about">Monet is mainly famous with paintings of nature and scenery. However, his first interest in arti revolves around caricatures and personal portraits. This was one of he personal portraits of his wife and their 8-year old son taking a stroll.  This painting looks more like a picture taken on camera than portrait paintings.</p>
+            </div>
+        </div>
+      </div>
+      <br>
+      <br>
+      
+      <div class = "paintings" id = "4">
+        <div class="row">
+            <div class="column-sm-8 image">
+                <img src = "Images/LeDéjeunerSurlherbe.png" alt = "Le Déjeuner Sur l’herbe" width = " 400px"/>
+            </div>
+            <div class="col-sm content">
+                <p class ="year">1866 | Musée d'Orsay, Paris</p>
+                <h4 class = "ptname">LE DEJEUNER SUR L'HERBE</h4>                   
+                <p class = "about">"Le Déjeuner Sur l’herbe"
+                   (1866) is a painting of 12 people in Parisian clothing, having a picnic. It was painted in response to the 1863 work of Édouard Manet.  It is an unfinished piece, and the central and left panels are now in Paris and Moscow. </p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+
+    <div class = "paintings" id = "5">
+      <div class="row">
+          <div class="column-sm-8 image">
+              <img src = "Images/LaGareSaint-Lazare.png" alt = "La Gare Saint-Lazare " width = " 400px"/>
+          </div>
+          <div class="col-sm content">
+              <p class ="year">1877 | Musée d'Orsay, Paris</p>
+              <h4 class = "ptname">LA GARE SAINT-LAZARE</h4>                   
+              <p class = "about">"La Gare Saint-Lazare" (1877) was a painting of one passenger platform of the Gare Saint-Lazare train terminal. This portrays all the aspects of the train terminal. This is one of the many aspects of the terminal paintings he drew.</p>
+          </div>
+      </div>
+  </div>
+  <br>
+  <br>
+    </div>
+
+    <div class="series" id = "ptseries">
+      <h2 class = "ptseriesBTitle">Painting Series</h2>w
+      <hr>
+      <p class = "ptseriesIntro">Monet was famous for painting the same scene over and over, most of which is caused by his desire to capture how he sees the world.</p>
+      <br>
+
+        <div class="slider" id = "Haystack">
+            <span id="slide-1-1"></span>
+            <span id="slide-2-1"></span>
+            <span id="slide-3-1"></span>
+            <span id="slide-4-1"></span>
+            <span id="slide-5-1"></span>
+            <span id="slide-6-1"></span>
+            <div class="image-container">
+              <img src="Images/Haystack_1.png" class="slide" width="500" height="300" />
+              <img src="Images/Haystack_2.png" class="slide" width="500" height="300" />
+              <img src="Images/Haystack_3.png" class="slide" width="500" height="300" />
+              <img src="Images/Haystack_4.png" class="slide" width="500" height="300" />
+              <img src="Images/Haystack_5.png" class="slide" width="500" height="300" />
+              <img src="Images/Haystack_6.png" class="slide" width="500" height="300" />
+            </div>
+            <div class="buttons">
+              <a href="#slide-1-1"></a>
+              <a href="#slide-2-1"></a>
+              <a href="#slide-3-1"></a>
+              <a href="#slide-4-1"></a>
+              <a href="#slide-5-1"></a>
+              <a href="#slide-6-1"></a>
+            </div>
+          </div>
+          <h4 class = "ptseriesTitle">HAYSTACK AT THE END OF SUMMER</h4>
+          <p class = "ptseriesCt">Haystacks are another painting series of Monet where he painted the views of haystacks after the harvest season in Giverny. A total of 25 paintings under different times and lightings were drawn. </p>
+        <br>
+        <br>
+
+        <div class="slider" id = "Rouen">
+          <span id="slide-1-2"></span>
+          <span id="slide-2-2"></span>
+          <span id="slide-3-2"></span>
+          <span id="slide-4-2"></span>
+          <span id="slide-5-2"></span>
+          <span id="slide-6-2"></span>
+          <div class="image-container">
+            <img src="Images/Rouen_Cathedral_1.png" class="slide" width="500" height="300" />
+            <img src="Images/Rouen_Cathedral_2.png" class="slide" width="500" height="300" />
+            <img src="Images/Rouen_Cathedral_3.png" class="slide" width="500" height="300" />
+            <img src="Images/Rouen_Cathedral_4.png" class="slide" width="500" height="300" />
+            <img src="Images/Rouen_Cathedral_5.png" class="slide" width="500" height="300" />
+            <img src="Images/Rouen_Cathedral_6.png" class="slide" width="500" height="300" />
+          </div>
+          <div class="buttons">
+            <a href="#slide-1-2"></a>
+            <a href="#slide-2-2"></a>
+            <a href="#slide-3-2"></a>
+            <a href="#slide-4-2"></a>
+            <a href="#slide-5-2"></a>
+            <a href="#slide-6-2"></a>
+          </div>
+        </div>
+        <h4 class = "ptseriesTitle">ROUEN CATHEDRAL</h4>
+        <p class = "ptseriesCt">Monet was well-known for painting the same thing over and over again. Rouen Cathedral was one of the famous painting series. He painted an apartment with the direct views of the cathedral. However, he did not finish the paintings during his stay at the apartment, but rather only when he went back to his studio in Giverny. </p>
+        <br>
+        <br>
+        
+        <div class="slider" id = "Parliament">
+          <span id="slide-1-3"></span>
+          <span id="slide-2-3"></span>
+          <span id="slide-3-3"></span>
+          <span id="slide-4-3"></span>
+          <span id="slide-5-3"></span>
+          <span id="slide-6-3"></span>
+          <div class="image-container">
+            <img src="Images/Houses_of_Parliament_1.png" class="slide" width="500" height="300" />
+            <img src="Images/Houses_of_Parliament_2.png" class="slide" width="500" height="300" />
+            <img src="Images/Houses_of_Parliament_3.png" class="slide" width="500" height="300" />
+            <img src="Images/Houses_of_Parliament_4.png" class="slide" width="500" height="300" />
+            <img src="Images/Houses_of_Parliament_5.png" class="slide" width="500" height="300" />
+            <img src="Images/Houses_of_Parliament_6.png" class="slide" width="500" height="300" />
+          </div>
+          <div class="buttons">
+            <a href="#slide-1-3"></a>
+            <a href="#slide-2-3"></a>
+            <a href="#slide-3-3"></a>
+            <a href="#slide-4-3"></a>
+            <a href="#slide-5-3"></a>
+            <a href="#slide-6-3"></a>
+          </div>
+        </div>
+        <h4 class = "ptseriesTitle">HOUSES OF PARLIAMENT</h4>
+        <p class = "ptseriesCt">This is also another famous painting series. He painted this same view in many different lights and weather conditions. He set up a painting studio on a terrace in the St. Thomas Hospital. He finished these painting series in the next three years from his painting studio.</p>
+        <br>
+        <br>
+        
+        <div class="slider" id = "Waterlilies">
+          <span id="slide-1-4"></span>
+          <span id="slide-2-4"></span>
+          <span id="slide-3-4"></span>
+          <span id="slide-4-4"></span>
+          <span id="slide-5-4"></span>
+          <span id="slide-6-4"></span>
+          <div class="image-container">
+            <img src="Images/WaterLilies_1.png" class="slide" width="500" height="300" />
+            <img src="Images/WaterLilies_2.png" class="slide" width="500" height="300" />
+            <img src="Images/WaterLilies_3.png" class="slide" width="500" height="300" />
+            <img src="Images/JapaneseBridge_1.png" class="slide" width="500" height="300" />
+            <img src="Images/JapaneseBridge_2.png" class="slide" width="500" height="300" />
+            <img src="Images/JapaneseBridge_3.png" class="slide" width="500" height="300" />
+          </div>
+          <div class="buttons">
+            <a href="#slide-1-4"></a>
+            <a href="#slide-2-4"></a>
+            <a href="#slide-3-4"></a>
+            <a href="#slide-4-4"></a>
+            <a href="#slide-5-4"></a>
+            <a href="#slide-6-4"></a>
+          </div>
+        </div>
+        <h4 class = "ptseriesTitle">WATER LILIES | JAPANESE BRIDGE </h4>
+        <p class = "ptseriesCt">The water lilies series is the most famous paintings of Monet: they symbolise Monet. He painted 250 paintings of these during the last 30 years of his life. He created “a garden of flowers” and “a garden of water” in his house where he sets up his painting studio. He built a Japanese bridge over the pond in his house and this was the main subject of his series of water lilies at first. However, he mainly focused on the flowers in his later paintings.</p>
+        <br>
+        <br>
+  </div>
+  <div class = "Locations" id = "locations">
+    <h2 class = "locations">Click on the globe to see the Locations of the Paintings! </h2>
+    <a href = "https://monet-6pdj.vercel.app/" target="_blank"><img src = "icons8-globe-80.png" style = "width:150px;height:150px;"> </a>
+  </div>
+</body>
+</html>
